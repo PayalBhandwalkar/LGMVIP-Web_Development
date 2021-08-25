@@ -1,0 +1,54 @@
+button{
+  
+  border-radius: 5px;
+  border: none;  
+  background-color: rgba(0, 0, 0, 0.747);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+}
+button:focus{
+  outline: none;
+}
+
+nav{
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.747);
+  margin-bottom: 8rem;
+}
+.avatar{
+  align-self: center;
+  border-radius: 5rem;
+  margin-bottom: 1rem;
+}
+
+.profile {
+  
+  max-width: 20rem;
+  margin: 15px auto;
+  text-align: center;
+  padding: 2rem;
+  border-color: rgba(0, 0, 0, 0.87);
+  border-style:groove;
+  border-width: 1rem;
+  background-color: rgba(255, 255, 255, 0.747);
+}
+.profile:hover{
+  transition:500ms;
+  box-shadow: 20px 20px 50px rgba(133, 133, 133, 0.6);
+}
+p{
+  color: rgb(85, 85, 85);
+  font-size:20px;
+  font-weight: bold;
+}
+.name{
+  color: rgb(0, 0, 0);
+
+  font-size:30px;
+  font-weight: bold;
+}
+.email {
+  font-size: 22px;
+}
